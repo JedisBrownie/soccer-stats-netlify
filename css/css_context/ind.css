@@ -1,0 +1,78 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+    
+}
+
+.Header{
+    background-color: rgb(38, 38, 38);
+    height: 80px;
+}
+.Logo_img{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.nav_sect a{
+    color: rgb(140, 206, 65);
+    margin-right: 2%;
+
+}
+.nav_sect a:hover{
+    color: darkgreen;
+}
+
+.Sector{
+    color: rgb(140, 206, 65);
+}
+
+.Main_nav{
+    float: right;
+    margin-top: 3%;
+    margin-right: 5%;
+    color: rgb(227, 224, 224);
+}
+.Main_nav:hover{
+    color: rgb(140, 206, 65);
+}
+
+.btn{
+    background-color: rgb(140, 206, 65);
+    color: rgb(227, 224, 224);
+    margin-right: -1%;
+}
+.btn:hover{
+    background-color: rgb(117, 173, 54);
+    color: rgb(227, 224, 224);
+}
+
+
+tr{
+    text-align: center;
+}
+th{
+    
+    width: 10%;
+    height: 20px;
+    font-size: smaller;
+    background-color: rgb(38, 38, 38);
+    color: rgb(227, 224, 224);
+}
+td{
+    background-color: rgb(227, 224, 224);
+}
+
+
+.Footer{
+    margin-top: 10%;
+    color: aliceblue;
+    background-color: rgb(38, 38, 38);
+    height: 100px;
+}
+
+.Footer p{
+    padding-left: 10%;
+    margin-bottom: -1%;
+    font-size: 12.5px;
+}
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/css_context/ind.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <title>Document</title>
+    </head>
+    <body style="background-color: aliceblue;">
+        <div class="container" style="background-color: white;">
+            <div class="row">
+                <div class="col-sm-12">
+                </div>
+                <div class="container">
+                    <div class="Header">
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <a href="index.html"><img src="elements/logo/ws_logo.svg" alt="" class="Logo_img"></a>
+                            </div>
+                            <div class="col-sm-9">
+                                <nav>
+                                    <a href="#" class="Main_nav">En Direct</a>
+                                    <a href="#" class="Main_nav">Statistiques</a>
+                                    <a href="#" class="Main_nav">Avant-matchs</a>
+                                    <a href="#" class="Main_nav">Info-cles</a>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+        
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h1><b>Footbal-Statistiques</b></h1>
+        
+                            <div class="nav_sect" style="margin-bottom: 1%; margin-top: 5%;">
+                                <a role="presentation" onclick="setidListe('general',2)" href="#" >General</a>
+                                <a role="presentation" onclick="setidListe('defense',0)" href="#" >Defense</a>
+                                <a role="presentation" onclick="setidListe('attack',1)" href="#" >Attaque</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+
+                                <button type="button" class="btn" onclick="setExt(2)">General</button>
+                                <button type="button" class="btn" onclick="setExt(0)">Domicile</button>
+                                <button type="button" class="btn" onclick="setExt(1)">Exterieur</button>
+        
+                            <div class="table-container">
+                                <table border="1" id="table_General" class="table-category" style="border-color: white;">
+                                    <tr id="listeParam">
+                                    </tr>
+                                    <tbody id="response">
+                                        
+                                    </tbody>
+                                </table>                                
+                            </div>
+                                
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="Footer">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h4 style="margin-left: 5%;">Contact</h4>
+                                <p>FAX: <span style="color: rgb(140, 206, 65);">032 32 323 23</span></p>
+                                <p>Email: <span style="color:rgb(140, 206, 65) ;">WhoScored.Techique@mail.com</span></p>
+                            </div>
+                            <div class="col-sm-3">
+    
+                            </div>
+                            <div class="col-sm-5">
+                                <p style="margin-top: 5%; margin-right: 5%;">please note that this html template is just a prototype, a test version of the original. if you are willing to see the real website, go to <a href="https://fr.whoscored.com/Statistics#top-team-stats-defensive">here</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+        
+            </div>
+
+        </div>
+
+        
+
+    </body>
+    <script src="Funcion.js"></script>
+</html>

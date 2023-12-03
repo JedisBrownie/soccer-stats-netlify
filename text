@@ -1,0 +1,82 @@
+        <div class="Header">
+            <a href="index.html"><img src="elements/logo/ws_logo.svg" alt=""></a>
+            <div class="head">
+                <label for="">
+                    <nav>
+                        <a href="#" class="Main_nav">Live Scores</a>
+                        <a href="#" class="Main_nav">Statistics</a>
+                        <a href="#" class="Main_nav">Previews</a>
+                        <a href="#" class="Main_nav">News</a>
+                        <a href="#" class="Main_nav">Top Facts</a>
+                    </nav>
+                </label>
+            </div>
+        </div>
+
+        <div class="Content">            
+            <h3><b>Footbal Statistics</b></h3>
+
+            <a href="#">Overall</a>
+            <a href="#">Home</a>
+            <a href="#">Away</a>
+
+            <table border="1">
+                <tr>
+                    <th>Team</th>
+                    <th>Tournament</th>
+                    <th>Shot per game</th>
+                    <th>Tackles per game</th>
+                    <th>Interceptions per game</th>
+                    <th>Penalties per game</th>
+                    <th>Offsides per game</th>
+                    <th>Rating</th>
+                </tr>
+                <tr>
+                    <td>Valencia</td>
+                    <td>LaLiga</td>
+                    <td>12.1</td>
+                    <td>22.1</td>
+                    <td>9</td>
+                    <td>13.1</td>
+                    <td>0.7</td>
+                    <td>6.50</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="Content">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h3><b>Footbal-Statistiques</b></h3>
+
+                    <div class="btn_comps" style="margin-bottom: 1%; margin-top: 5%;">
+                    <button type="button" class="btn">General</button>
+                    <button type="button" class="btn">Domicile</button>
+                    <button type="button" class="btn">Exterieur</button>        
+                    </div>
+
+                    <table border="1" style="border-color: white;">
+                        <tr>
+                            <th>Equipe</th>
+                            <th>Competition</th>
+                            <th>Tirs pm</th>
+                            <th>Tacles pm</th>
+                            <th>Interceptions pm</th>
+                            <th>Fautes pm</th>
+                            <th>Hors-jeux pm</th>
+                            <th>Note</th>
+                        </tr>
+                        <tr>
+                            <td><b>Valencia</b></td>
+                            <td>LaLiga</td>
+                            <td>12.1</td>
+                            <td>22.1</td>
+                            <td>9</td>
+                            <td>13.1</td>
+                            <td>0.7</td>
+                            <td style="color: rgb(240, 136, 33);"><b>6.50</b></td>
+                        </tr>
+                </div>
+
+            </div>
+        </div>
